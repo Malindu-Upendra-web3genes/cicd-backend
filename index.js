@@ -7,7 +7,7 @@ app.use(cors())
 
 app.get('/', (req, res) => {
 console.log("api called")
-  res.send('Hello World from automated cicd and testing auto mation')
+  res.send('Hi my name is malindu')
 })
 
 app.listen(port, () => {
