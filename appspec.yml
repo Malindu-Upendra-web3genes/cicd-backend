@@ -4,10 +4,10 @@ files:
   - source: /
     destination: /home/ec2-user/cicd-backend
 hooks:
-  ApplicationStop:
-  DownloadBundle:
-  BeforeInstall:
-  Install:
+#  ApplicationStop:
+#  DownloadBundle:
+#  BeforeInstall:
+#  Install:
   AfterInstall:
     - location: scripts/after_install.sh
       timeout: 300
@@ -16,4 +16,4 @@ hooks:
     - location: scripts/application_start.sh
       timeout: 300
       runas: root
-  ValidateService:
+#  ValidateService:
