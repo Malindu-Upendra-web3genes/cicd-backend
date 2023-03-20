@@ -5,4 +5,4 @@ echo 'cd /home/ec2-user/nodejs-server-cicd' >> /home/ec2-user/cicd-backend/deplo
 cd /home/ec2-user/cicd-backend >> /home/ec2-user/cicd-backend/deploy.log
 
 echo 'npm install' >> /home/ec2-user/cicd-backend/deploy.log 
-npm install >> /home/ec2-user/cicd-backende/deploy.log
+npm i --legacy-peer-deps >> /home/ec2-user/cicd-backend/deploy.log
