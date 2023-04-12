@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/cicd-backend
+    destination: /home/ec2-user/securedoc/cicd-backend
 hooks:
 #  ApplicationStop:
 #  DownloadBundle:
